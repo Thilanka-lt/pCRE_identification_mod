@@ -5,7 +5,7 @@
 I. clone kmer pipeline in github
 
 ```
-git clone https://github.com/ShiuLab/MotifDiscovery-legacy-.git
+https://github.com/Thilanka-lt/pCRE_identification_mod.git
 ```
 
 II. Activate environments
