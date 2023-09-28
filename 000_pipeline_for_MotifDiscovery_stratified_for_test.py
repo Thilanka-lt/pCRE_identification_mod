@@ -36,7 +36,7 @@ def main():
 	inp_group.add_argument('-smote', help='up-sampling the minority class or not, y or n',default='n')
 	inp_group.add_argument('-cv_num', help='number of folds for cross validation',default=5)
 	inp_group.add_argument('-score', help='score used to select final model',default='roc_auc')
-	inp_group.add_argument('-smote_test', help='',default='up-sampling the minority class or not for test dataset, y or n')
+	inp_group.add_argument('-smote_test', help='up-sampling the minority class or not for test dataset, y or n',default='n')
 	inp_group.add_argument('-stratified_for_test', help='y or n, y only when  the holdout < 1, i.e., proportion to be treated as test', default='n')
 	inp_group.add_argument('-pos_expression', help='file with gene ID and used for positive class and the expression, can be TPM or FC or any values, needed when stratified_for_test is y', default='none')
 	inp_group.add_argument('-neg_expression', help='file with gene ID and used for negative class and the expression, can be TPM or FC or any values, needed when stratified_for_test is y', default='none')
